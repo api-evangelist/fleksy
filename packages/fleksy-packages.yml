@@ -1,0 +1,26 @@
+generated: '2026-07-19'
+method: searched
+source: https://trunk.cocoapods.org/api/v1/pods/FleksySDK
+notes: >-
+  Fleksy (Thingthing Ltd) shipped a native mobile Keyboard SDK rather than a web
+  REST API. Only the iOS distribution survives on a public registry: the
+  first-party FleksySDK CocoaPods pod (owner vince@fleksy.com). No first-party
+  Fleksy package was found on npm, PyPI, RubyGems, NuGet, crates.io, or
+  Packagist. The Android SDK was distributed via the provider's own Maven/JitPack
+  repository (co.thingthing.fleksysdk) which is no longer reachable — Maven
+  Central returns zero results — so it is not listed here to avoid fabrication.
+packages:
+  - language: objective-c
+    platform: ios
+    registry: cocoapods
+    name: FleksySDK
+    url: https://cocoapods.org/pods/FleksySDK
+    install: pod 'FleksySDK'
+    latest_version: '3.0.1'
+    published: '2014-05-27'
+    homepage: http://fleksy.com/sdk
+    owner: vince@fleksy.com
+    official: true
+    description: >-
+      Fleksy keyboard SDK for iOS — embeds the Fleksy typing engine (autocorrect,
+      next-word prediction, gesture typing) into third-party apps.

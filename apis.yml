@@ -1,8 +1,28 @@
 aid: fleksy
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fleksy.png
 name: Fleksy
-description: Fleksy is a company surfaced as a portfolio company of seedcamp, speedinvest and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Fleksy (Thingthing Ltd) was a keyboard technology company that built a mobile
+  Keyboard SDK — a white-label, privacy-focused typing engine that iOS and Android
+  developers could embed in their own apps. The SDK provided autocorrect, next-word
+  prediction, swipe/gesture typing, customizable themes, and a plugin system, and the
+  Fleksy keyboard once held Guinness World Records for the fastest typing. Fleksy
+  distributed a native mobile SDK rather than a public web/REST API, so it exposes no
+  OpenAPI, GraphQL, or hosted developer portal. Backed by Seedcamp and Speedinvest, the
+  company's public web presence (fleksy.com, docs.fleksy.com, fleksy.dev) no longer
+  resolves and the business appears defunct; this profile captures the surviving public
+  artifact — the first-party FleksySDK CocoaPods pod for iOS.
 url: https://raw.githubusercontent.com/api-evangelist/fleksy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +31,20 @@ x-backed-by:
 - speedinvest
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Keyboard
+- SDK
+- Mobile
+- iOS
+- Android
+- Typing
+- Autocorrect
+- Developer Tools
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +54,14 @@ maintainers:
 common:
 - type: Website
   url: http://fleksy.com
+- type: Packages
+  url: packages/fleksy-packages.yml
+- type: SDKs
+  url: packages/fleksy-packages.yml
+- type: LLMsTxt
+  url: llms/fleksy-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

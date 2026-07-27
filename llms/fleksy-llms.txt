@@ -1,0 +1,20 @@
+# Fleksy
+
+> Fleksy (Thingthing Ltd) was a keyboard technology company that built a mobile
+> Keyboard SDK — a white-label, privacy-focused typing engine (autocorrect,
+> next-word prediction, swipe/gesture typing, themes and plugins) that iOS and
+> Android app developers could embed in their own apps. The Fleksy keyboard once
+> held Guinness World Records for fastest typing. The company was backed by
+> Seedcamp and Speedinvest. Its public web presence (fleksy.com, docs.fleksy.com,
+> fleksy.dev) no longer resolves and the company appears defunct; this profile
+> captures the surviving public artifacts.
+
+## Note
+- Fleksy shipped a native mobile SDK, not a public web/REST API. There is no OpenAPI,
+  AsyncAPI, GraphQL, MCP server, or hosted developer portal available to harvest.
+
+## Packages
+- FleksySDK (CocoaPods, iOS): https://cocoapods.org/pods/FleksySDK — first-party iOS keyboard SDK pod (owner vince@fleksy.com), latest 3.0.1 (2014).
+
+## Repo artifacts
+- Package catalog: packages/fleksy-packages.yml
